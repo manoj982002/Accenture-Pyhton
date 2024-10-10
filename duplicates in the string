@@ -1,0 +1,3 @@
+string = input("Enter a string: ")
+duplicates = set([char for char in string if string.count(char) > 1])
+print("Duplicates:", duplicates)
