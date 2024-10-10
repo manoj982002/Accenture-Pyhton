@@ -1,7 +1,8 @@
-#The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, starting from 0 and 1. 
 def fibonacci(n):
     a, b = 0, 1
     for _ in range(n):
         print(a, end=" ")
         a, b = b, a + b
-fibonacci(10)
+
+number = int(input("Enter the number of Fibonacci numbers to display: "))
+fibonacci(number)
